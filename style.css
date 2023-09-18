@@ -23,5 +23,76 @@ body {
   width: 100vw;
   word-wrap: break-word;
   font-size: 1.6rem;
-  color: #005AA7;
 }
+
+/* header */
+
+header {
+  background-color: lightpink;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  color: rgb(164, 33, 116)
+}
+
+.nav-item {
+  padding: 1.5rem;
+}
+
+/* main */ 
+
+article > h2 {
+  color: lightpink;
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+.article__association {
+  padding: 2.5rem;
+}  
+
+.contain {
+  display: flex;
+  font-size: 2rem;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.contain > article > .picture {
+  max-width: 300px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  padding: 2rem;
+  align-items: center;
+}
+
+.footer {
+  background: lightpink;
+}
+
+footer > a {
+  color: initial;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  color: rgb(204, 91, 110);
+}
+
+p {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+  .contain {
+    flex-flow: column;
+  }
+  .article__association {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
