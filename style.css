@@ -31,6 +31,7 @@ header {
   background-color: lightpink;
   font-size: 3rem;
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 1rem;
   color: rgb(164, 33, 116)
@@ -87,14 +88,21 @@ h2, article > h2 {
 .texte__picture {
   position: absolute;
   top: 25rem;
-  left: 25rem;
   width: 100%;
 }
 
-blockquote {
+.event {
+  font-size: 400%;
+}
+
+.event_date {
   font-size: 300%;
+}
+
+.event, .event_date {
   font-style: italic;
   font-weight: 900;
+  color: rgb(164, 33, 116)
 }
 
 
@@ -129,3 +137,22 @@ p {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .event {
+    font-size: 250%;
+  }
+  
+  .event_date {
+    font-size: 175%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .event {
+    font-size: 200%;
+  }
+  
+  .event_date {
+    font-size: 150%;
+  }
+}
