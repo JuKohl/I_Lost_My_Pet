@@ -1,0 +1,27 @@
+/* elements */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: initial;
+  text-decoration: none;
+}
+
+/* general */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat','Roboto', 'Arial', sans-serif;
+  line-height: 1.6;
+  width: 100vw;
+  word-wrap: break-word;
+  font-size: 1.6rem;
+  color: #005AA7;
+}
